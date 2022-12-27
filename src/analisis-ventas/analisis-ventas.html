@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12">
+            <h2 class="ingresar-titulo">Análisis de Ventas</h2>
+            <div class="check-analisis-ano"></div>
+            <div class="check-analisis-mes"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            
+                <form class="needs-validation" id ="form-analisis-ventas">
+                    <div class="form-row">
+                        <div class="col-3">
+                            <select name="" id="ingresar-ano" class="custom-select form-control" required>
+                                <option value="" selected>Elegir Año</option>  
+                            </select>
+                        </div>
+                        <div class="col-3">
+                            <select name="" id="ingresar-mes" class="custom-select form-control">
+                                <option value="" selected>Elegir Mes</option>  
+                            </select>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-outline-primary">Pedir</button>
+                        </div>
+                    </div>  
+                </form>
+            </div>
+        </div>
+    
+            <div class="row">
+                <div class="col-3 graf-lugar">
+                    <h6>Ventas por Lugar</h6>
+                    <canvas id="grafico-circular-lugar-analisis"></canvas>
+                </div>
+                <div class="col-4 graf-tipos">
+                    <h6>Tipos de Prendas Vendidos</h6>
+                    <canvas id="grafico-circular-tipos-analisis"></canvas>
+                </div>
+            <div class="col-2 column-boxes">
+                <div class="row">
+                    <div class="box-analisis-venta">
+                        <h6>Ventas</h6>
+                        <label id="analisis-venta"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box-analisis-venta">
+                        <h6>Costo</h6>
+                        <label id="analisis-costo"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box-analisis-venta">
+                        <h6>Utilidad</h6>
+                        <label id="analisis-utilidad"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 column-boxes">
+
+                <div class="row">
+                    <div class="box-analisis-venta">
+                        <h6>Venta Casa</h6>
+                        <label id="analisis-ventacasa"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box-analisis-venta">
+                        <h6>Venta Tienda</h6>
+                        <label id="analisis-ventatienda"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box-analisis-venta">
+                        <h6>Cantidad Vend.</h6>
+                        <label id="analisis-cantidad"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <button class="btn btn-outline-primary" id="crear-pdf">Crear Pdf</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

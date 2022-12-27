@@ -1,0 +1,140 @@
+/*
+$color-azul: rgb(198, 128, 216);
+$color-box:  #a461f1;
+$color-gris: gray;
+$color-hover: rgb(88, 160, 255);
+*/
+.index-top-container {
+  background-color: gray;
+}
+
+.index-top-container .index-titulo {
+  color: white;
+  text-align: center;
+}
+
+.index-top-container .container-estado {
+  border-style: solid;
+  width: 120px;
+  text-align: center;
+}
+
+.index-top-container .container-estado .row {
+  width: 100%;
+}
+
+.index-top-container .container-estado .texto-estado {
+  text-align: center;
+}
+
+.index-top-container .container-estado .texto-estado #estado-base {
+  color: white;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.index-top-container .container-estado #estado-base-log {
+  background-color: yellow;
+  width: 40px;
+  height: 20px;
+  margin-left: 50px;
+  margin-bottom: 2px;
+  border-style: solid;
+}
+
+.index-left {
+  margin-top: 10px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.index-left .nav {
+  background-color: #0e205c;
+  color: white;
+}
+
+.index-left .nav .nav-link {
+  color: white;
+}
+
+.index-left .nav .nav-link:hover {
+  background-color: darkorange;
+}
+
+.index-left .nav .nav-link-2:hover {
+  background-color: darkorange;
+}
+
+.index-left-1 {
+  height: 30px;
+  width: 156.71px;
+  margin-top: 10px;
+  background-color: #0e205c;
+}
+
+.index-left-1-5 {
+  height: 20px;
+  width: 156.71px;
+  margin-top: 10px;
+  background-color: #0e205c;
+}
+
+.index-left-2 {
+  height: 13px;
+  width: 156.71px;
+  margin-top: 10px;
+  background-color: #0e205c;
+}
+
+.index-left-3 {
+  height: 8px;
+  width: 156.71px;
+  margin-top: 10px;
+  background-color: #0e205c;
+}
+
+.index-left-4 {
+  height: 5px;
+  width: 156.71px;
+  margin-top: 10px;
+  background-color: #0e205c;
+}
+
+.index-medium-container-main {
+  margin-top: 10px;
+}
+
+.index-right {
+  background-color: lightgray;
+  height: 550px;
+}
+
+.index-bottom {
+  margin-top: 30px;
+}
+
+.index-bottom .index-box {
+  margin: 3px;
+  background-color: #0077ff;
+  color: white;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.index-bottom .index-box label {
+  text-align: center;
+  display: block;
+}
+
+.index-bottom .index-box h6 {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.form-row {
+  padding: 2%;
+}
+
+.foto-tablas {
+  padding-left: 20px;
+}

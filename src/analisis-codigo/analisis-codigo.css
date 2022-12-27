@@ -1,0 +1,30 @@
+.container-info{
+    margin-top: 20px;
+}
+
+#analisis-img{
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+#analisis-tabla{
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+th{
+    font-weight:normal;
+}
+
+hr{
+    margin: 7px;
+}
+
+h6{
+    text-align: center;
+}
+
+.row2-tabla{
+    margin-top: 20px;
+}

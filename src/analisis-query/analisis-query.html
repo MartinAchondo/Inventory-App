@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html> 
+<head>
+</head>
+  <body>
+        <div class="tabla-container">
+            <div class="row">
+                <div class="col-8">
+                    <textarea id="query-input" cols="60" rows="3" placeholder="SELECT tipo AS Tipo, codigo AS Código FROM inventario"></textarea>
+                </div>
+                <div class="col-4">
+                    <button id="query-mandar" type="button" class="btn btn-outline-primary">Query</button>
+                </div>
+            </div>
+            <div class="row">
+                <table id="query-datatable" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+                </table> 
+            </div> 
+        </div>   
+    <script type="text/javascript" src="/eel.js"></script>
+  </body>
+</html>

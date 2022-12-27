@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12">
+            <h2 class="ingresar-titulo">Análisis Código</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8">
+            <select name="" id="existente-select" class="form-control form-control-sm">
+                <option value= "" selected>Search Código</option>  
+            </select>
+        </div>
+    </div>
+    <div class="row container-info">
+        <div class="col-5">
+            <div class="row">
+                <h6>Información</h6>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <label>Código: </label>
+                </div>
+                <div class="col-8">
+                    <label id="analisis-codigo"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <label>Tipo: </label>
+                </div>
+                <div class="col-8">
+                    <label id="analisis-tipo"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <label>Color: </label>
+                </div>
+                <div class="col-8">
+                    <label id="analisis-color"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <label>Descripción:</label>
+                </div>
+                <div class="col-8">
+                    <label id="analisis-descripcion"></label>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-4">
+                    <label>Costo: </label>
+                </div>
+                <div class="col-8">
+                    <label id="analisis-costo"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <label>Precio Casa: </label>
+                </div>
+                <div class="col-8">
+                    <label id="analisis-preciocasa"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <label>Precio Tienda: </label>
+                </div>
+                <div class="col-8">
+                    <label id="analisis-preciotienda"></label>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-4">
+                    <label>Cantidad Casa: </label>
+                </div>
+                <div class="col-8">
+                    <label id="analisis-cantidadcasa"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <label>Cantidad Tienda: </label>
+                </div>
+                <div class="col-8">
+                    <label id="analisis-cantidadtienda"></label>
+                </div>
+            </div>
+        </div>
+        <div class="col-7">
+            <div class="row">
+                <img id="analisis-img" src="#" onerror="this.src='img-codigos/none.jpg';" alt="Sin Foto">
+            </div>
+            <div class="row row2-tabla">
+                <h6>Ventas: </h6>
+            </div>
+            <div class="row">
+                <table class="table table-sm" id="analisis-tabla">
+                    <thead>
+                      <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Lugar</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Dscto</th>
+                      </tr>
+                    </thead>
+                    <tbody id="analisis-tbody">
+                    </tbody>
+                </table>
+            </div>
+            <div class="row">
+                <label id="analisis-nada"></label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

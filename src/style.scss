@@ -1,0 +1,149 @@
+/*
+$color-azul: rgb(198, 128, 216);
+$color-box:  #a461f1;
+$color-gris: gray;
+$color-hover: rgb(88, 160, 255);
+*/
+
+$color-azul:  rgb(14, 32, 92);
+$color-box2:  #F7BA41;
+$color-gris: gray;
+$color-hover: darkorange;
+$color-box: rgb(0,119,255);
+
+
+.index-top-container{
+    background-color: $color-gris;
+
+    .index-titulo{
+        color: white;
+        text-align: center;
+    }
+
+    .container-estado{
+        border-style: solid;
+        width: 120px;
+        text-align: center;
+
+        .row{
+            width: 100%;
+        }
+        .texto-estado{
+            text-align: center;
+
+            #estado-base{
+                color: white;
+                margin-left: 30px;
+                text-align: center;
+            }
+        }
+
+        #estado-base-log{
+            background-color: yellow;
+            width: 40px;
+            height: 20px;
+            margin-left: 50px;
+            margin-bottom: 2px;
+            border-style: solid; 
+        }
+
+    }
+}
+
+.index-left{
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: center;
+
+    .nav{
+        background-color: $color-azul;
+        color: white;
+
+        .nav-link{
+            color: white;
+        }
+
+        .nav-link:hover{
+            background-color: $color-hover;
+            
+        }
+        .nav-link-2:hover{
+            background-color: $color-hover;
+        }
+    }
+}
+
+.index-left-1{
+    height: 30px;
+    width: 156.71px;
+    margin-top: 10px;
+    background-color: $color-azul;
+}
+
+.index-left-1-5{
+    height: 20px;
+    width: 156.71px;
+    margin-top: 10px;
+    background-color: $color-azul;
+}
+
+.index-left-2{
+    height: 13px;
+    width: 156.71px;
+    margin-top: 10px;
+    background-color: $color-azul;
+}
+.index-left-3{
+    height: 8px;
+    width: 156.71px;
+    margin-top: 10px;
+    background-color: $color-azul;
+}
+
+.index-left-4{
+    height: 5px;
+    width: 156.71px;
+    margin-top: 10px;
+    background-color: $color-azul;
+}
+
+
+.index-medium-container-main{
+    margin-top: 10px;
+}
+
+.index-right{
+    background-color: lightgray;
+    height: 550px;
+}
+
+.index-bottom{
+
+    margin-top: 30px;
+
+    .index-box{
+        margin: 3px;
+        background-color: $color-box;
+        color: white;
+        padding: 2px;
+        margin-bottom: 10px;
+    
+        label{
+            text-align: center;
+            display: block;
+        }
+        
+        h6{
+            margin-top: 15px;
+            text-align: center;
+        }
+    }
+}
+
+.form-row{
+    padding: 2%;
+}
+
+.foto-tablas{
+    padding-left: 20px;
+}

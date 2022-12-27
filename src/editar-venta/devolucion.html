@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12">
+            <h2 class="ingresar-titulo">Ingresar Devolución</h2>
+        </div>
+      </div>
+      <div class="row">
+          <form class="needs-validation" id ="form-ingresar-devolucion" autocomplete="off">
+              <div class="form-row autocomplete">
+                <div class="col-10">
+                    <select name="" id="existente-select" class="form-control form-control-sm">
+                        <option value= "" selected>Search Código</option>  
+                    </select>
+                </div>
+              </div> 
+              <div class="form-row">
+                <div class="col-4">
+                    <label class="form-label">Código</label>
+                    <div class="">
+                        <input type="text" id="ingresar-codigo" disabled="true" class="form-control" required>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                      <label class="form-label">Lugar de Venta</label>
+                      <select name="" id="ingresar-lugar" disabled="true" class="form-control" required>
+                        <option value="" selected>Elegir Lugar</option>
+                        <option id="devolucion-casa">Casa</option>
+                        <option id="devolucion-tienda">Tienda</option>  
+                    </select>
+                  </div>
+              </div>
+              <div class="form-row">
+                  <div class="col-4">
+                    <label class="form-label">Precio de Venta</label>
+                    <div class="">
+                        <input type="number" id="ingresar-precio" class="form-control" required>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <label class="form-label">Cantidad</label>
+                    <div class="">
+                        <input type="number" id="ingresar-cantidad" class="form-control" required>
+                    </div>
+                  </div>
+              </div>
+              <div class="form-row">
+                  <div class="col-12">
+                      <button id="ingresar-devolucion" type="submit" class="btn btn-outline-primary">Ingresar Devolución</button>
+                  </div>
+              </div>
+          </form>
+      </div>
+</body>
+</html>

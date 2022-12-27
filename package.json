@@ -1,0 +1,21 @@
+{
+  "name": "gestor-dominga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --icon 'src/icon/favicon.ico'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinAchondo/Gestor-Dominga.git"
+  },
+  "author": "chonwerein",
+  "license": "ISC",
+  "homepage": "https://github.com/MartinAchondo/Gestor-Dominga#readme",
+  "devDependencies": {
+    "electron": "^13.1.6",
+    "electron-packager": "^15.2.0"
+  }
+}

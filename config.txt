@@ -1,0 +1,20 @@
+// crear python env 
+python -m venv .venv
+
+//activar venv --virtual env en python
+.\\.venv\Scripts\activate.ps1
+deactivate
+
+pip freeze > requirements.txt
+
+npm install (nombre) --save-dev
+
+auto-py-to-exe // correr en powershell y venv (novscode)
+
+npm script build
+
+extract vba changing .xlsm to .zip
+
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
+shift + alt + d  sqlite database

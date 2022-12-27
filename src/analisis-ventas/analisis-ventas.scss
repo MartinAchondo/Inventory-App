@@ -1,0 +1,28 @@
+$color-box: rgb(0,119,255);
+
+.box-analisis-venta{
+    margin: 3px;
+    background-color: $color-box;
+    color: white;
+    padding: 2px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 80px;
+    margin-left: 10px;
+
+    label{
+        text-align: center;
+        display: block;
+    }
+    
+    h6{
+        margin-top: 15px;
+        text-align: center;
+    }
+}
+
+.column-boxes{
+    margin-top: 20px;
+}
+
+

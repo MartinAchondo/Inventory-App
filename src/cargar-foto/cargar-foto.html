@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html> 
+<head>
+</head>
+<body>
+  <div class="row">
+    <h3>Seleccionar Código Para Buscar Foto</h3>
+  </div>
+  <div class="row">
+      <form class="needs-validation" id ="form-foto" autocomplete="off">
+          <div class="form-row autocomplete">
+            <div class="col-8">
+              <select name="" id="existente-select" class="form-control form-control-sm">
+                  <option value= "" selected>Search Código</option>  
+              </select>
+          </div>
+          </div>
+          <div class="form-row">
+            <div class="col-12">
+              <div class="col-8">
+                <label class="form-label">Código</label>
+                <div class="">
+                    <input type="text" id="base-codigo" disabled="true" class="form-control" required>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-6">
+              <label class="form-label">Buscar archivo para actualizar la foto asociado al código</label>
+            </div>
+            <div class="col-6">
+              <div class="">
+                  <button type="button" disabled="true" id="foto-buscar" class="btn btn-secondary">Buscar Foto</button>
+              </div>
+            </div>
+          </div>
+      </form>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-6">
+      <label>Subir fotos a drive</label>
+      <button type="button" class="btn btn-secondary" id="fotos-subir">Subir</button>
+    </div>
+    <div class="col-6">
+      <label>Descargar fotos de drive</label>
+      <button type="button" class="btn btn-secondary" id="fotos-descargar">Descargar</button>
+    </div>
+  </div>
+  <script type="text/javascript" src="/eel.js"></script>
+  </body>
+</html>

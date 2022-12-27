@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html> 
+<head>
+</head>
+<body>
+  <div class="row">
+    <div class="col-12">
+        <h2 class="ingresar-titulo">Enviar a Tienda</h2>
+    </div>
+  </div>
+  <div class="row">
+      <form class="needs-validation" id ="form-enviar-tienda" autocomplete="off">
+          <div class="form-row autocomplete">
+            <div class="col-10">
+              <select name="" id="existente-select" class="form-control form-control-sm">
+                  <option value= "" selected>Search Código</option>  
+              </select>
+          </div>
+          </div> 
+          <div class="form-row">
+            <div class="col">
+                <img id="ingresar-img" height=60 src="#" onerror="this.src='img-codigos/none.jpg';" alt="Sin Foto">
+            </div>
+          </div>
+          <div class="form-row">
+              <div class="col-4">
+                  <label class="form-label">Precio Tienda</label>
+                  <div class="">
+                      <input type="number" id="enviar-precio" class="ingresar-input form-control" required>
+                  </div>
+              </div>
+              <div class="col-4">
+                <label class="form-label">Cantidad</label>
+                <div class="">
+                    <input type="number" id="enviar-cantidad" class="ingresar-input form-control" required>
+                </div>
+              </div>
+              <div class="col-4">
+                  <label class="form-label" for=""></label>
+                  <button id="enviar-tabla" type="submit" class="btn btn-outline-primary form-control">Ingresar a Tabla</button>
+              </div>
+          </div>
+      </form>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="tabla-enviar-container">
+        <table id="enviar-datatable" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+              <thead>
+                <tr>
+                    <th class="th-sm">Código</th>
+                    <th class="th-sm">Descripción</th>
+                    <th class="th-sm">Cantidad</th>
+                    <th class="th-sm">Precio Venta</th>
+                </tr>
+              </thead>
+        </table>
+      </div>
+    </div>
+  </div class="row"> 
+    <div class="col-12">
+      <button id="enviar-tienda" type="button" class="btn btn-outline-primary">Enviar a Tienda</button>
+    </div>
+  </div>
+    <script type="text/javascript" src="/eel.js"></script>
+  </body>
+</html>

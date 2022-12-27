@@ -1,0 +1,24 @@
+.box-analisis-venta {
+  margin: 3px;
+  background-color: #0077ff;
+  color: white;
+  padding: 2px;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 80px;
+  margin-left: 10px;
+}
+
+.box-analisis-venta label {
+  text-align: center;
+  display: block;
+}
+
+.box-analisis-venta h6 {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.column-boxes {
+  margin-top: 20px;
+}

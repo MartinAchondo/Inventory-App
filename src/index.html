@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lib/selectize.bootstrap4.min.css">
+    <link rel="stylesheet" href="lib/dataTables.bootstrap4.min.css">
+    <link rel="icon" href="icon/favicon.ico?v=2" type="image/x-icon">
+    <title>Gestor Dominga</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row index-top-container">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h1 class="index-titulo">Gestor Dominga</h1>
+            </div>
+            <div class="col-2">
+                <div class="container-estado">
+                    <div class="row">
+                        <div class="texto-estado">
+                            <label id="estado-base"></label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="estado-base-log"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <div class="index-left">
+                    <div class="row">
+                        <nav class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="index-item-inicio" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item dropright">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Ingresar Prenda</a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item nav-link-2" id="index-item-ingresar-prenda-nueva" href="#">Nueva</a>
+                                  <a class="dropdown-item nav-link-2" id="index-item-ingresar-prenda-existente" href="#">Existente</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="index-item-inventario" href="#">Inventario</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="index-item-analisis-codigo" href="#">Ver Código</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="index-item-editar" href="#">Editar Inv.</a>
+                            </li>
+                            <li class="nav-item dropright">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Enviar</a>
+                                <div class="dropdown-menu">
+                                    <a class="nav-link-2 dropdown-item" id="index-item-enviar-tienda" href="#">Enviar a Tienda</a>
+                                    <a class="nav-link-2 dropdown-item" id="index-item-enviar-casa" href="#">Enviar a Casa</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="index-item-ingresar-venta" href="#">Ingresar Venta</a>
+                            </li>
+                            <li class="nav-item dropright">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Editar Venta</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item nav-link-2" id="index-item-devolucion" href="#">Devolución</a>
+                                    <a class="dropdown-item nav-link-2" id="index-item-anular" href="#">Anular</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="index-item-ventas" href="#">Ventas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="index-item-historial" href="#">Historial</a>
+                            </li>
+                            <li class="nav-item dropright">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Análisis</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item nav-link-2" id="index-item-analisis-inventario" href="#">Inventario</a>
+                                    <a class="dropdown-item nav-link-2" id="index-item-analisis-ventas" href="#">Ventas</a>
+                                    <a class="dropdown-item nav-link-2" id="index-item-analisis-query" href="#">Query</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropright">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cargar</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item nav-link-2" id="index-item-cargar-base" href="#">Base Drive</a>
+                                    <a class="dropdown-item nav-link-2" id="index-item-cargar-foto" href="#">Cargar Fotos</a>
+                                </div>
+                            </li>
+                        </nav>
+                    </div>
+                    <div class="row">
+                        <div class="index-left-1"></div>
+                        <div class="index-left-3"></div>
+                        <div class="index-left-4"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-10 index-medium-container-main">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="lib/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="lib/selectize.min.js"></script>
+    <script type="text/javascript" src="lib/chart.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.dataTable.min.js"></script>
+    <script type="text/javascript" src="lib/dataTables.bootstrap4.min.js"></script>
+    <script type="text/javascript" src="functions.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="functions_mid.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html> 
+<head>
+</head>
+  <body>
+    <button id="tabla-excel2" type="button" class="btn btn-outline-primary btn-sm">Exportar Planilla Excel</button>
+    <div class="inputs-container">
+      <form action="">
+        <div class="form-row">
+          <div class="col">
+            <input id="search-descripcion" class="form-control-sm form-control" type="text" placeholder="Search Descripción">
+          </div>
+          <div class="col">
+            <input id="search-color" class="form-control-sm form-control" type="text" placeholder="Search Color">
+          </div>
+          <div class="col">
+            <select name="" id="search-lugar-venta" class="form-control-sm form-control">
+              <option value=""> Search Lugar</option>
+              <option value="Casa">Casa</option>
+              <option value="Tienda">Tienda</option>
+            </select>
+          </div>
+          <div class="col">
+            <input id="search-fecha-min" type="date" class="form-control form-control-sm" placeholder="Fecha Mínina">
+          </div>
+          <div class="col">
+              <input id="search-fecha-max" type="date" class="form-control form-control-sm" placeholder="Fecha Máxima">
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="tabla-container">
+        <table id="ventas-datatable" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+              <thead>
+                <tr>
+                    <th class="th-sm">Id</th>
+                    <th class="th-sm">Código</th>
+                    <th class="th-sm">Descripción</th>
+                    <th class="th-sm">Color</th>
+                    <th class="th-sm">Fecha</th>
+                    <th class="th-sm">Cantidad</th>
+                    <th class="th-sm">Lugar</th>
+                    <th class=th-sm>Precio Real</th>
+                    <th class="th-sm">Precio Venta</th>
+                    <th class="th-sm">Descuento</th>
+                </tr>
+              </thead>
+            </table>
+          
+          </div>
+      </div>
+    <script type="text/javascript" src="/eel.js"></script>
+  </body>
+</html>

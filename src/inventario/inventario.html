@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html> 
+<head>
+</head>
+  <body>
+    <button id="tabla-excel" type="button" class="btn btn-outline-primary btn-sm">Exportar Planilla Excel</button>
+    <button id="tabla-excel-fotos" type="button" class="btn btn-outline-primary btn-sm">Exportar Planilla Códigos y Fotos</button>
+    <button id="tabla-excel-drive" type="button" class="btn btn-outline-primary btn-sm">Exportar Planilla y Subir a Drive</button>
+    
+    <div class="inputs-container">
+      <form action="">
+        <div class="form-row">
+          <div class="col">
+            <select name="" id="search-tipo" class="form-control form-control-sm">
+              <option value= "" selected>Search Tipo</option>  
+          </select>
+          </div>
+          <div class="col">
+            <input id="search-descripcion" class="form-control-sm form-control" type="text" placeholder="Search Descripción">
+          </div>
+          <div class="col">
+            <select name="" id="search-color" class="form-control form-control-sm">
+              <option value= "" selected>Search Color</option>  
+          </select>
+          </div>
+          <div class="col">
+            <select name="" id="search-lugar-inv" class="form-control-sm form-control">
+              <option value=""> Search Lugar</option>
+              <option value="Casa">Casa</option>
+              <option value="Tienda">Tienda</option>
+            </select>
+          </div>
+        </div>
+      </form>
+    </div>
+    
+    <div class="tabla-container">
+        <table id="inventario-datatable" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+              <thead>
+                <tr>
+                    <th class="th-sm">Código</th>
+                    <th class="th-sm">Tipo</th>
+                    <th class="th-sm">Descripción</th>
+                    <th class="th-sm">Color</th>
+                    <th class="th-sm">Cant. Casa</th>
+                    <th class="th-sm">Cant. Tienda</th>
+                    <th class="th-sm">Cant. Total</th>
+                    <th class="th-sm">Costo</th>
+                    <th class="th-sm">Precio Casa</th>
+                    <th class="th-sm">Precio Tienda</th>
+                </tr>
+              </thead>
+            </table>
+          
+          </div>
+
+    <script type="text/javascript" src="/eel.js"></script>
+  </body>
+</html>

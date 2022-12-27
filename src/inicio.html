@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <div class="row">
+        <div class="col-8">
+            <div class="row">
+                <div class="col-12">
+                    <canvas id="bar-chart" width="800" height="450"></canvas>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="index-bottom">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="index-box">
+                                    <h6>Total Ventas</h6>
+                                    <label id="index-total"></label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="index-box" id="box-inventario">
+                                    <h6>Inventario</h6>
+                                    <label id="index-inventario"></label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="index-box">
+                                    <h6>En Casa</h6>
+                                    <label id="index-casa"></label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="index-box">
+                                    <h6>En Tienda</h6>
+                                    <label id="index-tienda"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="index-box">
+                                    <h6>Utilidad Tot.</h6>
+                                    <label id="index-utilidad"></label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="index-box">
+                                    <h6>Utilidad Mes</h6>
+                                    <label id="index-utilidadmes"></label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="index-box">
+                                    <h6>Utilidad Inv.</h6>
+                                    <label id="index-ut-inv"></label>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="index-box">
+                                    <h6>Costo Inv.</h6>
+                                    <label id="index-cst-inv"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="col-4 index-right">
+            <div class="row">
+                <div class="col-10">
+                    <label>Ventas Totales</label>
+                    <canvas class="grafico-circular1" id="grafico-circular1" width="60" height="150"></canvas>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-10">
+                    <label>Ventas Mes Actual</label>
+                    <canvas class="grafico-circular2" id="grafico-circular2" width="60" height="150"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

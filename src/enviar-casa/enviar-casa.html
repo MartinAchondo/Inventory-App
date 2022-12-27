@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html> 
+<head>
+</head>
+<body>
+  <div class="row">
+    <div class="col-12">
+        <h2 class="ingresar-titulo">Enviar a Casa</h2>
+    </div>
+  </div>
+  <div class="row">
+      <form class="needs-validation" id ="form-enviar-casa" autocomplete="off">
+          <div class="form-row autocomplete">
+            <div class="col-8">
+              <select name="" id="existente-select" class="form-control form-control-sm">
+                  <option value= "" selected>Search Código</option>  
+              </select>
+            </div>
+          </div> 
+          <div class="form-row">
+              <div class="col-6">
+                <label class="form-label">Cantidad</label>
+                <div class="">
+                    <input type="number" id="casa-cantidad" class="ingresar-input form-control" required>
+                </div>
+              </div>
+              <div class="col-6">
+                  <label class="form-label"></label>
+                  <button id="casa-tabla" type="submit" class="btn btn-outline-primary form-control">Ingresar a Tabla</button>
+              </div>
+          </div>
+      </form>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="tabla-enviar-container">
+        <table id="casa-datatable" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+              <thead>
+                <tr>
+                    <th class="th-sm">Código</th>
+                    <th class="th-sm">Descripción</th>
+                    <th class="th-sm">Cantidad</th>
+                </tr>
+              </thead>
+        </table>
+      </div>
+    </div>
+  </div class="row"> 
+    <div class="col-12">
+      <button id="casa-tienda" type="button" class="btn btn-outline-primary">Enviar a Casa</button>
+    </div>
+  </div>
+    <script type="text/javascript" src="/eel.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+/.venv
+database/base.db
+/__pycache__
+database/__pycache__
+base/base.db
+src/lib
+/exports
+/sheets/__pycache__
+/tests
+/node_modules
+/sheets/vba copy.zip
+/real
+base/img/
+/base
+web/__pycache__
+web/token_files
+web/creds
+/saves
+/app
+src/img-codigos
+sheets/bin_vbaprojects/xl
+/.vscode
+/pdfs/plots
+**__pycache__
+user.json
+client_secret.json

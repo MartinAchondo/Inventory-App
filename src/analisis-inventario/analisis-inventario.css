@@ -1,0 +1,32 @@
+.box-analisis-inv {
+  margin: 3px;
+  background-color: #0077ff;
+  color: white;
+  padding: 2px;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 80px;
+}
+
+.box-analisis-inv label {
+  text-align: center;
+  display: block;
+}
+
+.box-analisis-inv h6 {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.grafico-analisis-inv {
+  height: 60px;
+  width: 100px;
+}
+
+.column-boxes {
+  margin-top: 150px;
+}
+
+.btn-analisis {
+  margin-left: 30px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12">
+            <h2 class="ingresar-titulo">Código Existente</h2>
+        </div>
+    </div>
+    <div class="row">
+        <form class="needs-validation" id ="form-ingresar-existente" autocomplete="off">
+            <div class="form-row autocomplete">
+                <div class="col-12">
+                    <select name="" id="existente-select" class="form-control form-control-sm">
+                        <option value= "" selected>Search Código</option>  
+                    </select>
+                </div> 
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <img id="ingresar-img" height=100 src="#" onerror="this.src='img-codigos/none.jpg';" alt="Sin Foto">
+                </div>
+            </div>
+            <div class="form-row">  
+                <div class="col-4">
+                    <label class="form-label">Código</label>
+                    <div class="">
+                        <input type="text" id="ingresar-codigo" disabled="true" class="form-control" required>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <label class="form-label">Proovedor</label>
+                    <div class="">
+                        <input type="text" id="ingresar-proovedor" class="form-control" required>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <label class="form-label">Cantidad</label>
+                    <div class="">
+                        <input type="number" id="ingresar-cantidad" class="ingresar-input form-control" required>
+                    </div>
+                </div>
+            </div>  
+            <div class="form-row">
+                <div class="col-4">
+                    <label class="form-label">Precio Casa</label>
+                    <div class="">
+                        <input type="number" id="ingresar-precio" class="ingresar-input form-control" required>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <label class="form-label">Precio Tienda</label>
+                    <div class="">
+                        <input type="number" id="ingresar-precio-tienda" class="ingresar-input form-control" required>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <label class="form-label">Costo</label>
+                    <div class="">
+                        <input type="number" id="ingresar-costo" class="ingresar-input form-control" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-12">
+                    <button id="ingresar-mandar2" type="submit" class="btn btn-outline-primary">Ingresar Prenda</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

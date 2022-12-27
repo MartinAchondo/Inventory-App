@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12">
+            <h2 class="ingresar-titulo">Análisis de Inventario</h2>
+        </div>
+    </div>
+    <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div class="btn-group btn-analisis" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-outline-primary" id="analisis-todo-inv-btn">Todo</button>
+                        <button type="button" class="btn btn-outline-primary" id="analisis-casa-inv-btn">Casa</button>
+                        <button type="button" class="btn btn-outline-primary" id ="analisis-tienda-inv-btn">Tienda</button>
+                    </div>
+                </div>
+                <div class="row grafico-inv">
+                        <canvas class="grafico-analisis-inv" id="grafico-analisis-inv" width="100" height="150"></canvas>
+                </div>
+           </div>
+            <div class="col-3 column-boxes">
+                <div class="row">
+                    <div class="box-analisis-inv">
+                        <h6>Venta Inv.</h6>
+                        <label id="analisis-venta-inv"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box-analisis-inv">
+                        <h6>Costo Inv.</h6>
+                        <label id="analisis-costo-inv"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box-analisis-inv">
+                        <h6>Utilidad Inv.</h6>
+                        <label id="analisis-utilidad-inv"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 column-boxes">
+                <div class="row">
+                    <div class="box-analisis-inv">
+                        <h6>Cantidad Inv.</h6>
+                        <label id="analisis-cantidad-inv"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box-analisis-inv">
+                        <h6>Cantidad Casa</h6>
+                        <label id="analisis-cantidadcasa-inv"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box-analisis-inv">
+                        <h6>Cantidad Tienda</h6>
+                        <label id="analisis-cantidadtienda-inv"></label>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
